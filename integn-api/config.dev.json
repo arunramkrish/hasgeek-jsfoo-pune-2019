@@ -1,0 +1,5 @@
+{
+    "apiGatewayConfig": {
+        "sis": "http://localhost:8008"
+    }
+}

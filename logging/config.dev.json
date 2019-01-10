@@ -1,0 +1,31 @@
+{
+    "logConfig": {
+        "httpRequestLog": {
+            "fname": "httpRequest.log",
+            "rfsOptions": {
+                "size": "10M",
+                "interval": "1d",
+                "compress": "gzip"
+            },
+            "format": ":remote-addr - :remote-user :date[clf] ':method :url HTTP/:http-version' :status :res[content-length] :response-time ':referrer' ':user-agent'"
+        },
+        "appLog": {
+            "streamConfig": {
+                "type": "rotating-file",
+                "fname": "app.log",
+                "period": "1d",
+                "count": 7,
+                "level": "debug"
+            }
+        },
+        "smsLog": {
+            "fname": "sms.%d-%b-%y.%N.log",
+            "period": "1d",
+            "totalFiles": 30,
+            "rotateExisting": false,
+            "threshold": "10m",
+            "totalSize": "50m",
+            "gzip": true
+        }        
+    }
+}

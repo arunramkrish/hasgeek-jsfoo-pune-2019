@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Consumer program",
+            "program": "${workspaceFolder}/demo/consumer/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "logger1 program",
+            "program": "${workspaceFolder}/demo/logger/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "logger2 program",
+            "program": "${workspaceFolder}/demo/logger/app2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Producer program",
+            "program": "${workspaceFolder}/demo/producer/app.js"
+        }
+
+    ]
+}

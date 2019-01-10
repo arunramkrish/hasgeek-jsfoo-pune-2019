@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "event-gateway-psg",
+        "scope": null,
+        "escapedName": "event-gateway-psg",
+        "name": "event-gateway-psg",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "F:\\PSG\\Official\\Products\\IntegratedEducationSolutions\\Modules\\src\\ies-fees-collection"
+    ]
+  ],
+  "_from": "event-gateway-psg@latest",
+  "_id": "event-gateway-psg@1.0.13",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/event-gateway-psg",
+  "_nodeVersion": "8.9.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/event-gateway-psg_1.0.13_1524473554958_0.622734876971127"
+  },
+  "_npmUser": {
+    "name": "nishad2703",
+    "email": "nishad.rahiman27@gmail.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "event-gateway-psg",
+    "scope": null,
+    "escapedName": "event-gateway-psg",
+    "name": "event-gateway-psg",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/event-gateway-psg/-/event-gateway-psg-1.0.13.tgz",
+  "_shasum": "5127fc621b2b6a8884b2dc6467af88aeb8537633",
+  "_shrinkwrap": null,
+  "_spec": "event-gateway-psg",
+  "_where": "F:\\PSG\\Official\\Products\\IntegratedEducationSolutions\\Modules\\src\\ies-fees-collection",
+  "author": "",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "events": "^2.0.0"
+  },
+  "description": "an event-gateway package",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Y/z4iaSy/AEnb79F6hEUB51No8I6Aw3T1n5Bga+7SkcGKhKsi1907w/jclrfrFOuKOWK1bBvVCc23Rssj9HmtQ==",
+    "shasum": "5127fc621b2b6a8884b2dc6467af88aeb8537633",
+    "tarball": "https://registry.npmjs.org/event-gateway-psg/-/event-gateway-psg-1.0.13.tgz",
+    "fileCount": 8,
+    "unpackedSize": 12459,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3Z7TCRA9TVsSAnZWagAA7IYP/j5tJzvZY4oQQSYg5BoD\nnTVTQ9s/7KczY7S471vlHHkN8/uHB6wLMICV1UL9mVFacolxZFKTLLDsnFfJ\noak2bnkWUX7K7mDVvCzDNUPll70JJ25dXt0qWzFJb77A72NMuK1FhMWG77vi\n9QLFmehyUe2pUoKZ6TNDD4+vCx7xaIQtQrZTIF4Tkd7t2ukBT/gVp6Lyxii0\nIq6TjLghNSAD4FVIMZ/30nSSjngSX71H1cQY2ww0v/qnJULdXyKR0OtW7TnR\nO71UxbQuIKqLn/1QGzmquCmHnlpdrg2gOQtDDWL56jpNcc8Adezp78irQacg\n2VbS47j3gj7K8MewG3Ga3Hmypl3JO4/tj4yXusDajlaar+ErIli1a8Rxw2sb\nZz818sp+oo3FRHxQaoxcIc2aL3GmjlOobDSScEdi/6Tams2bTIOQanWWaeCW\n+i2CTId1SeAmyCDSiF0RSiiIEQioVlHw93LxLjBxemffhp6ue38vjFJV2OvT\n39fRz6Vlqkm0fiiyLK4LHqApLAbQ7IQinR4zsaF1LKg1sja19Pa432w/r/GH\ndFJVnmfM6bqPXPVvIqyK3Y56h0FSVQQnXpj+BxYI8CfkMJUrvRPZxaGmUUJ0\neHz7AYia7O9AGC/4gMU/xjOYuNMGrs08f9u5U5GV9DycfwIjQIxFm9b1pZxI\nwKmF\r\n=s6V3\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "license": "PSG",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "kaushik-sathish",
+      "email": "tmkaushik@gmail.com"
+    },
+    {
+      "name": "nishad2703",
+      "email": "nishad.rahiman27@gmail.com"
+    }
+  ],
+  "name": "event-gateway-psg",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.13"
+}
